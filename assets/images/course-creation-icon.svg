@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Laptop base -->
+  <ellipse cx="80" cy="140" rx="60" ry="8" fill="#333" opacity="0.3"/>
+  
+  <!-- Laptop screen -->
+  <rect x="30" y="40" width="100" height="70" rx="8" fill="#2c3e50" stroke="#34495e" stroke-width="3"/>
+  <rect x="35" y="45" width="90" height="60" rx="4" fill="#ecf0f1"/>
+  
+  <!-- Course content on screen -->
+  <rect x="40" y="50" width="80" height="8" rx="2" fill="#3498db"/>
+  <rect x="40" y="62" width="60" height="4" rx="1" fill="#95a5a6"/>
+  <rect x="40" y="68" width="70" height="4" rx="1" fill="#95a5a6"/>
+  <rect x="40" y="74" width="50" height="4" rx="1" fill="#95a5a6"/>
+  
+  <!-- Play button on screen -->
+  <circle cx="65" cy="85" r="8" fill="#e74c3c"/>
+  <polygon points="62,81 62,89 70,85" fill="#fff"/>
+  
+  <!-- Progress bar -->
+  <rect x="40" y="95" width="80" height="3" rx="1.5" fill="#ecf0f1"/>
+  <rect x="40" y="95" width="48" height="3" rx="1.5" fill="#2ecc71"/>
+  
+  <!-- Laptop keyboard -->
+  <rect x="25" y="110" width="110" height="25" rx="8" fill="#34495e"/>
+  <rect x="30" y="115" width="100" height="15" rx="3" fill="#2c3e50"/>
+  
+  <!-- Keyboard keys -->
+  <g fill="#95a5a6">
+    <rect x="35" y="118" width="8" height="3" rx="1"/>
+    <rect x="45" y="118" width="8" height="3" rx="1"/>
+    <rect x="55" y="118" width="8" height="3" rx="1"/>
+    <rect x="65" y="118" width="8" height="3" rx="1"/>
+    <rect x="75" y="118" width="8" height="3" rx="1"/>
+    <rect x="85" y="118" width="8" height="3" rx="1"/>
+    <rect x="95" y="118" width="8" height="3" rx="1"/>
+    <rect x="105" y="118" width="8" height="3" rx="1"/>
+    <rect x="115" y="118" width="8" height="3" rx="1"/>
+    
+    <rect x="40" y="124" width="8" height="3" rx="1"/>
+    <rect x="50" y="124" width="8" height="3" rx="1"/>
+    <rect x="60" y="124" width="8" height="3" rx="1"/>
+    <rect x="70" y="124" width="8" height="3" rx="1"/>
+    <rect x="80" y="124" width="8" height="3" rx="1"/>
+    <rect x="90" y="124" width="8" height="3" rx="1"/>
+    <rect x="100" y="124" width="8" height="3" rx="1"/>
+    <rect x="110" y="124" width="8" height="3" rx="1"/>
+  </g>
+  
+  <!-- Course creation elements floating around -->
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="20" height="15" rx="2" fill="#f39c12" opacity="0.8"/>
+    <rect x="2" y="2" width="16" height="2" fill="#fff"/>
+    <rect x="2" y="5" width="12" height="1" fill="#fff"/>
+    <rect x="2" y="7" width="14" height="1" fill="#fff"/>
+    <rect x="2" y="9" width="10" height="1" fill="#fff"/>
+  </g>
+  
+  <g transform="translate(120,30)">
+    <circle cx="10" cy="10" r="8" fill="#9b59b6" opacity="0.8"/>
+    <text x="10" y="14" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">+</text>
+  </g>
+  
+  <!-- Template elements -->
+  <g transform="translate(10,80)">
+    <rect x="0" y="0" width="15" height="20" rx="2" fill="#1abc9c" opacity="0.8"/>
+    <rect x="2" y="2" width="11" height="3" fill="#fff"/>
+    <rect x="2" y="6" width="8" height="1" fill="#fff"/>
+    <rect x="2" y="8" width="9" height="1" fill="#fff"/>
+    <rect x="2" y="10" width="7" height="1" fill="#fff"/>
+    <rect x="2" y="12" width="10" height="1" fill="#fff"/>
+    <rect x="2" y="14" width="6" height="1" fill="#fff"/>
+  </g>
+</svg>

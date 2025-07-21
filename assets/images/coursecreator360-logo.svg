@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Animated floating effect -->
+  <g>
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      values="0,0; 0,-10; 0,0" 
+      dur="3s" 
+      repeatCount="indefinite"/>
+    
+    <!-- Outer circle with gradient -->
+    <circle cx="90" cy="90" r="85" fill="url(#gradient1)" stroke="#006de0" stroke-width="3"/>
+    
+    <!-- Inner decorative elements -->
+    <circle cx="90" cy="90" r="70" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Central logo design -->
+    <g transform="translate(90,90)">
+      <!-- CC360 Text -->
+      <text x="0" y="-5" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="24">CC360</text>
+      
+      <!-- Course creation icons -->
+      <g transform="translate(0,20)">
+        <!-- Book/Course icon -->
+        <rect x="-20" y="-5" width="15" height="10" rx="2" fill="#e2ff00"/>
+        <rect x="-18" y="-3" width="11" height="1" fill="#006de0"/>
+        <rect x="-18" y="-1" width="8" fill="#006de0"/>
+        
+        <!-- Play button -->
+        <circle cx="0" cy="0" r="6" fill="#e2ff00"/>
+        <polygon points="-2,-3 -2,3 4,0" fill="#006de0"/>
+        
+        <!-- Dollar sign -->
+        <text x="18" y="3" text-anchor="middle" fill="#e2ff00" font-family="Arial, sans-serif" font-weight="bold" font-size="12">$</text>
+      </g>
+      
+      <!-- Decorative stars -->
+      <polygon points="-40,-20 -38,-25 -36,-20 -33,-18 -38,-16 -40,-20" fill="#e2ff00" opacity="0.8"/>
+      <polygon points="40,25 42,20 44,25 47,27 42,29 40,25" fill="#e2ff00" opacity="0.8"/>
+    </g>
+    
+    <!-- Gradient definitions -->
+    <defs>
+      <radialGradient id="gradient1" cx="50%" cy="30%">
+        <stop offset="0%" style="stop-color:#28c1ff;stop-opacity:1" />
+        <stop offset="40%" style="stop-color:#0084ff;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#006de0;stop-opacity:1" />
+      </radialGradient>
+    </defs>
+  </g>
+</svg>
