@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background blueprint paper -->
+  <rect x="10" y="10" width="140" height="140" rx="8" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Blueprint grid pattern -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#bdc3c7" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect x="15" y="15" width="130" height="130" fill="url(#grid)"/>
+  
+  <!-- Step-by-step roadmap path -->
+  <path d="M 30,40 Q 50,30 70,40 Q 90,50 110,40 Q 130,30 140,50 Q 130,70 110,80 Q 90,90 70,80 Q 50,70 30,80 Q 20,100 30,120" 
+        fill="none" stroke="#2ecc71" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Milestone markers -->
+  <!-- Step 1 -->
+  <circle cx="30" cy="40" r="8" fill="#e74c3c"/>
+  <text x="30" y="45" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">1</text>
+  
+  <!-- Step 2 -->
+  <circle cx="70" cy="40" r="8" fill="#f39c12"/>
+  <text x="70" y="45" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">2</text>
+  
+  <!-- Step 3 -->
+  <circle cx="110" cy="40" r="8" fill="#3498db"/>
+  <text x="110" y="45" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">3</text>
+  
+  <!-- Step 4 -->
+  <circle cx="140" cy="50" r="8" fill="#9b59b6"/>
+  <text x="140" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">4</text>
+  
+  <!-- Step 5 -->
+  <circle cx="110" cy="80" r="8" fill="#1abc9c"/>
+  <text x="110" y="85" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">5</text>
+  
+  <!-- Step 6 -->
+  <circle cx="70" cy="80" r="8" fill="#2ecc71"/>
+  <text x="70" y="85" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="bold" font-size="10">6</text>
+  
+  <!-- Final step -->
+  <circle cx="30" cy="120" r="10" fill="#27ae60"/>
+  <polygon points="26,118 30,122 34,118 34,124 26,124" fill="#fff"/>
+  
+  <!-- Blueprint annotations -->
+  <g fill="#34495e" font-family="Arial" font-size="8">
+    <text x="20" y="30">START</text>
+    <text x="125" y="30">PLAN</text>
+    <text x="125" y="95">BUILD</text>
+    <text x="15" y="135">SUCCESS</text>
+  </g>
+  
+  <!-- Progress indicators -->
+  <g transform="translate(20,60)">
+    <rect x="0" y="0" width="30" height="4" rx="2" fill="#ecf0f1"/>
+    <rect x="0" y="0" width="20" height="4" rx="2" fill="#2ecc71"/>
+    <text x="35" y="3" fill="#34495e" font-family="Arial" font-size="6">67%</text>
+  </g>
+  
+  <!-- Blueprint title -->
+  <rect x="20" y="20" width="60" height="12" rx="2" fill="#3498db" opacity="0.8"/>
+  <text x="25" y="28" fill="#fff" font-family="Arial" font-weight="bold" font-size="8">BLUEPRINT</text>
+  
+  <!-- Checklist items -->
+  <g transform="translate(100,100)" fill="#34495e" font-family="Arial" font-size="6">
+    <rect x="0" y="0" width="3" height="3" fill="#2ecc71"/>
+    <text x="5" y="2">Research</text>
+    <rect x="0" y="5" width="3" height="3" fill="#2ecc71"/>
+    <text x="5" y="7">Plan</text>
+    <rect x="0" y="10" width="3" height="3" fill="#f39c12"/>
+    <text x="5" y="12">Build</text>
+    <rect x="0" y="15" width="3" height="3" fill="#ecf0f1"/>
+    <text x="5" y="17">Launch</text>
+  </g>
+  
+  <!-- Compass for navigation -->
+  <g transform="translate(130,110)">
+    <circle cx="0" cy="0" r="12" fill="#34495e" opacity="0.8"/>
+    <circle cx="0" cy="0" r="8" fill="#ecf0f1"/>
+    <polygon points="0,-6 -2,0 0,6 2,0" fill="#e74c3c"/>
+    <text x="0" y="2" text-anchor="middle" fill="#34495e" font-family="Arial" font-size="4">N</text>
+  </g>
+</svg>
